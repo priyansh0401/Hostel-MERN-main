@@ -1,14 +1,14 @@
 [{
   "_id": {
-    "$oid": "645b965902723b061fab22a2"
+    "$oid": "615b965902723b061fab22a2"
   },
   "name": "abc",
-  "email": "khattarshrutika@gmail.com",
+  "email": "goeltaya216@gmail.com",
   "father_name": "abc",
   "contact": "12345678",
   "address": "abc",
   "dob": {
-    "$date": "2004-12-12T00:00:00.000Z"
+    "$date": "2002-06-21T00:00:00.000Z"
   },
   "cnic": "3510312345678",
   "user": {
@@ -18,7 +18,7 @@
     "$oid": "645aae56db7005c0dc64fd92"
   },
   "date": {
-    "$date": "2023-05-10T13:04:25.419Z"
+    "$date": "2025-01-21T07:07:07.419Z"
   },
   "__v": 0
 }]
