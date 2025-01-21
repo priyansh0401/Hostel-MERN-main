@@ -11,7 +11,7 @@ export default function AdminSignIn() {
   const getHostel = async () => {
     let admin = JSON.parse(localStorage.getItem("admin"));
     try {
-      const res = await fetch("https://hostel-mern-main-client.vercel.app/api/admin/get-hostel", {
+      const res = await fetch("https://hostel-mern-main-backend.vercel.app/api/admin/get-hostel", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -34,7 +34,7 @@ export default function AdminSignIn() {
       password: pass,
     };
 
-    let response = await fetch("https://hostel-mern-main-client.vercel.app/api/auth/login", {
+    let response = await fetch("https://hostel-mern-main-backend.vercel.app/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -47,7 +47,7 @@ export default function AdminSignIn() {
 
     if (result.success) {
       localStorage.setItem("token", result.data.token);
-      let admin = await fetch("https://hostel-mern-main-client.vercel.app/api/admin/get-admin", {
+      let admin = await fetch("https://hostel-mern-main-backend.vercel.app/api/admin/get-admin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

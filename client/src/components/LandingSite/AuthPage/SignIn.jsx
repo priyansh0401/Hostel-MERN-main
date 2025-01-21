@@ -21,7 +21,7 @@ export default function SignIn() {
       password: pass,
     };
 
-    let response = await fetch("https://hostel-mern-main-client.vercel.app/api/auth/login", {
+    let response = await fetch("https://hostel-mern-main-backend.vercel.app/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +33,7 @@ export default function SignIn() {
 
     if (result.success) {
       localStorage.setItem("token", result.data.token);
-      let student = await fetch("https://hostel-mern-main-client.vercel.app/api/student/get-student", {
+      let student = await fetch("https://hostel-mern-main-backend.vercel.app/api/student/get-student", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

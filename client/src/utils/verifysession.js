@@ -1,5 +1,5 @@
 const verifysession = async () => {
-    let response = await fetch("https://hostel-mern-main-client.vercel.app/api/auth/verifysession", {
+    let response = await fetch("https://hostel-mern-main-backend.vercel.app/api/auth/verifysession", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
