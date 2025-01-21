@@ -7,7 +7,12 @@ const port = 3000
 
 connectDB();
 
-app.use(cors());
+// app.use(cors());
+
+app.use(cors({
+  origin: '*', // Allow all origins (default when no options are passed)
+}));
+
 
 app.use(express.json({ extended: false }));
 
