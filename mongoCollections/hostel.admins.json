@@ -2,11 +2,11 @@
   "_id": {
     "$oid": "645b965902723b061fab22a2"
   },
-  "name": "Muhammad Danish",
-  "email": "muhammaddanish14@gmail.com",
-  "father_name": "Muhammad Tariq",
-  "contact": "03074741119",
-  "address": "Habibabad, Pattoki, Kasur",
+  "name": "abc",
+  "email": "khattarshrutika@gmail.com",
+  "father_name": "abc",
+  "contact": "12345678",
+  "address": "abc",
   "dob": {
     "$date": "2004-12-12T00:00:00.000Z"
   },
