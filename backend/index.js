@@ -7,10 +7,14 @@ const port = 3000
 
 connectDB();
 
-app.use(cors({
-  credentials: true,
-  origin: "https://hostel-mern-main-client.vercel.app/",
-}));
+app.use(cors());
+
+// app.use(cors({
+//   credentials: true,
+//   origin: "https://hostel-mern-main-client.vercel.app/",
+// }));
+
+
 
 
 // app.use(cors({
