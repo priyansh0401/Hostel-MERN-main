@@ -9,9 +9,9 @@ connectDB();
 
 // app.use(cors());
 
-// app.use(cors({
-//   origin: '*', // Allow all origins (default when no options are passed)
-// }));
+app.use(cors({
+  origin: '*', // Allow all origins (default when no options are passed)
+}));
 
 
 app.use(express.json({ extended: false }));
