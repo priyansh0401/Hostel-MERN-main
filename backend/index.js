@@ -7,7 +7,9 @@ const port = 3000
 
 connectDB();
 
-app.use(cors());
+app.use(cors({
+  credentials: true,
+}));
 
 
 // app.use(cors({
