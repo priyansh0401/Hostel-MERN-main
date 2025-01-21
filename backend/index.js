@@ -9,6 +9,7 @@ connectDB();
 
 app.use(cors({
   credentials: true,
+  origin: "https://hostel-mern-main-client.vercel.app/",
 }));
 
 
