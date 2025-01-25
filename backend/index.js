@@ -37,7 +37,7 @@ app.use('/api/suggestion', require('./routes/suggestionRoutes'));
 
 
 
-app.post("/",(req,res) => {
+app.get("/",(req,res) => {
   res.status(200).send("Hello!!!!");
 });
 
